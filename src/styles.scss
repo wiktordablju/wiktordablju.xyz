@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@use "./scss/reset";
+
+body {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to bottom, #403040 0%, #202020 100%);
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #c0c0c0;
+}
+
+a,
+a:visited {
+  color: #660000;
+  font-size: 2.5rem;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ff6666;
+}
